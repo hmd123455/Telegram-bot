@@ -1,10 +1,10 @@
 {
-  "functions": {
-    "api/**/*.php": {
-      "runtime": "vercel-php@0.7.1"
-    }
-  },
+  "version": 2,
+  "builders": [
+    { "src": "nor.php", "use": "vercel-php@0.7.1" }
+  ],
   "routes": [
-    { "src": "/(.*)", "dest": "/nor.php" }
+    { "src": "/nor.php", "dest": "nor.php" },
+    { "src": "/", "dest": "nor.php" }
   ]
 }
