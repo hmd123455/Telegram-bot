@@ -4,7 +4,7 @@ import gdown
 import os
 
 # 1. ضع توكين البوت الخاص بك هنا
-TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+TOKEN = '8673592904:AAGWIptsMKNGKmKQrtfa6Uj_-o-dEgRezaI'
 bot = telebot.TeleBot(TOKEN)
 
 # 2. تحميل قاعدة البيانات من الدرايف (لأول مرة فقط)
